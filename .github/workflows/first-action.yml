@@ -1,16 +1,16 @@
-# .github/workflows/first-action.yml
-name: First GitHub Action
+# # .github/workflows/first-action.yml
+# name: First GitHub Action
 
-on: [push]
+# on: [push]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
 
-      - name: Run a script
-        run: echo "hellow, Bongani! GitHub Actions is running."
+#       - name: Run a script
+#         run: echo "hellow, Bongani! GitHub Actions is running."
 
 
