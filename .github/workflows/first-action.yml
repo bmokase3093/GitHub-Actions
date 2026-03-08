@@ -8,3 +8,8 @@ jobs:
         run: echo "Hello world!"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: Run multiple shell comands
+        run: |
+            echo "First"
+            echo "Second"
+            echo "Third"
